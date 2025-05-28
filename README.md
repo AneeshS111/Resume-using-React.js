@@ -1,7 +1,7 @@
-**Aneesh Srivats – Portfolio Website**
+# Aneesh Srivats – Portfolio Website
 This is a personal portfolio website built using React.js, showcasing my technical skills, projects, and contact information. The project highlights my full-stack development abilities and serves as a digital resume.
 
-**🚀 Features**
+## 🚀 Features
 Responsive and modern UI using React
 
 Professionally styled with custom CSS
@@ -14,11 +14,11 @@ Technical skills and education sections
 
 Contact links with icons
 
-**📸 Preview**
+## 📸 Preview
 
 ![1](https://github.com/user-attachments/assets/1a8b37e0-9d71-441d-8171-a30d8b5eeedf)
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 React.js
 
 JavaScript
@@ -29,7 +29,7 @@ Node.js (for future backend integrations)
 
 React Icons (for icons and design)
 
-**📂 Folder Structure**
+## 📂 Folder Structure
 pgsql
 Copy
 Edit
@@ -45,7 +45,7 @@ my-portfolio/
 ├── package.json
 └── README.md
 
-**📦 Installation & Setup**
+## 📦 Installation & Setup
 Clone the repository:
 
 git clone https://github.com/your-username/my-portfolio.git
@@ -54,9 +54,9 @@ Navigate into the project folder:
 
 cd my-portfolio
 
-Install dependencies:
+Install dependencies and create the react app:
 
-npm install
+npx create-react-app myportfolio
 
 Start the development server:
 
@@ -64,7 +64,7 @@ npm start
 
 Visit http://localhost:3001 in your browser to view the site.
 
-**🔧 Deployment**
+## 🔧 Deployment
 You can deploy this app using platforms like:
 
 GitHub Pages
@@ -90,7 +90,8 @@ Then run:
 
 npm run deploy
 
-**📬 Contact**
+## 📬 Contact
+
 **📧 Email:** anee632004@gmail.com
 
 **🔗 LinkedIn:** Aneesh Srivats
