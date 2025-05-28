@@ -30,9 +30,7 @@ Node.js (for future backend integrations)
 React Icons (for icons and design)
 
 ## 📂 Folder Structure
-pgsql
-Copy
-Edit
+```
 my-portfolio/
 ├── public/
 │   └── index.html
@@ -44,7 +42,7 @@ my-portfolio/
 │   └── index.js
 ├── package.json
 └── README.md
-
+```
 ## 📦 Installation & Setup
 Clone the repository:
 
@@ -98,6 +96,5 @@ npm run deploy
 
 **💻 GitHub:** AneeshS111
 
-**📝 License**
-This project is open-source.
+**📝 License:** This project is open-source.
 
