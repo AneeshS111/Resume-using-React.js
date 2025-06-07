@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Resume-using-React.js/static/css/main.9cebc518.css",
+    "main.js": "/Resume-using-React.js/static/js/main.b89f8cf4.js",
+    "static/media/Aneesh.jpg": "/Resume-using-React.js/static/media/Aneesh.c089ea5abd2602c0d040.jpg",
+    "index.html": "/Resume-using-React.js/index.html",
+    "main.9cebc518.css.map": "/Resume-using-React.js/static/css/main.9cebc518.css.map",
+    "main.b89f8cf4.js.map": "/Resume-using-React.js/static/js/main.b89f8cf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cebc518.css",
+    "static/js/main.b89f8cf4.js"
+  ]
+}
