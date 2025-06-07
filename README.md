@@ -1,6 +1,11 @@
 # Aneesh Srivats – Portfolio Website
 This is a personal portfolio website built using React.js, showcasing my technical skills, projects, and contact information. The project highlights my full-stack development abilities and serves as a digital resume.
 
+## 🚀 Live Demo
+
+[View My React Resume](https://AneeshS111.github.io/Resume-using-React.js/)
+
+
 ## 🚀 Features
 Responsive and modern UI using React
 
