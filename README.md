@@ -68,13 +68,6 @@ npm start
 Visit http://localhost:3001 in your browser to view the site.
 
 ## 🔧 Deployment
-You can deploy this app using platforms like:
-
-GitHub Pages
-
-Vercel
-
-Netlify
 
 To deploy using GitHub Pages:
 
@@ -82,7 +75,7 @@ npm install gh-pages --save-dev
 
 Then add the following to package.json:
 
-"homepage": "https://your-username.github.io/my-portfolio"
+"homepage": "https://github.com/AneeshS111/Resume-using-React.js"
 
 And update your scripts:
 
