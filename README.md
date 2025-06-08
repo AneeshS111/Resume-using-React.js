@@ -3,7 +3,7 @@ This is a personal portfolio website built using React.js, showcasing my technic
 
 ## 🎥 Live Demo
 
-[View My React Resume](https://AneeshS111.github.io/Resume-using-React.js/)
+[View My React Resume](https://aneeshs111.github.io/Resume-using-React.js/)
 
 
 ## 🚀 Features
