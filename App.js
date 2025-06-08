@@ -1,24 +1,47 @@
 import React from 'react';
 import './App.css';
 import profilePic from './assets/Aneesh.jpg';
-
-// Importing icons from react-icons
-import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaGraduationCap, FaProjectDiagram, FaUser } from 'react-icons/fa';
+import {
+FaEnvelope,
+FaLinkedin,
+FaGithub,
+FaCode,
+FaGraduationCap,
+FaProjectDiagram,
+FaUser,
+FaHome,
+FaLaptopCode,
+FaSchool,
+FaAddressBook,
+} from 'react-icons/fa';
 
 function App() {
 return (
 <div>
-<header className="header">
-<img src={profilePic} alt="P M ANEESH SRIVATS" className="profile-pic" />
-<h1>P M ANEESH SRIVATS</h1>
-<p>Java Developer | AI & ML Enthusiast | Designer</p>
-</header>
-  <section className="card about">
+<nav className="navbar">
+<div className="navbar-container">
+<a href="#home" className="logo"><FaHome /> Hi I'm Aneesh!</a>
+<ul className="nav-links">
+<li><a href="#about"><FaUser /> About</a></li>
+<li><a href="#skills"><FaLaptopCode /> Skills</a></li>
+<li><a href="#education"><FaSchool /> Education</a></li>
+<li><a href="#projects"><FaProjectDiagram /> Projects</a></li>
+<li><a href="#contact"><FaAddressBook /> Contact</a></li>
+</ul>
+</div>
+</nav>
+  <header className="header" id="home">
+    <img src={profilePic} alt="P M ANEESH SRIVATS" className="profile-pic" />
+    <h1>P M ANEESH SRIVATS</h1>
+    <p>Java Developer | AI & ML Enthusiast | Designer</p>
+  </header>
+
+  <section className="card about" id="about">
     <h2><FaUser className="icon" /> About Me</h2>
     <p>I'm a passionate full-stack Java developer and Artificial Intelligence enthusiast, currently pursuing my B.E in Computer Science & Engineering at Malnad College of Engineering.</p>
   </section>
 
-  <section className="card skills">
+  <section className="card skills" id="skills">
     <h2><FaCode className="icon" /> Technical Skills</h2>
     <ul>
       <li>C</li>
@@ -30,7 +53,7 @@ return (
     </ul>
   </section>
 
-  <section className="card education">
+  <section className="card education" id="education">
     <h2><FaGraduationCap className="icon" /> Education</h2>
     <ul>
       <li><strong>10th:</strong> BGS National Public School – 84% – 2020</li>
@@ -39,7 +62,7 @@ return (
     </ul>
   </section>
 
-  <section className="card projects">
+  <section className="card projects" id="projects">
     <h2><FaProjectDiagram className="icon" /> Projects</h2>
     <div className="project">
       <h3>Weather Forecasting</h3>
@@ -59,7 +82,7 @@ return (
     </div>
   </section>
 
-  <section className="card contact">
+  <section className="card contact" id="contact">
     <h2><FaEnvelope className="icon" /> Contact</h2>
     <p><FaEnvelope className="icon-inline" /> Email: <a href="mailto:anee632004@gmail.com">anee632004@gmail.com</a></p>
     <p><FaLinkedin className="icon-inline" /> LinkedIn: <a href="https://www.linkedin.com/in/aneeshsrivats15824b25a" target="_blank" rel="noopener noreferrer">aneeshsrivats15824b25a</a></p>
